@@ -5,7 +5,13 @@
 
 # Descrição:
 
+Esse sistema utiliza o padrão de arquiterua MVC siglas de (Modelo,visão e controle) é dividido em três camadas de aplicação onde a interface de interação do usuário (front-end) são separados dos métodos que interagem com o banco de dados (back-end)  é um que realiza o cálculo de áreas geométricas, quadrado, retângulo e triângulo. Para isso, há um formulário (camada visão) que solicita ao usuário inserir dados para o cálculo. Com efeito, o usuário do sistema pode escolher a opção para calcular a área do quadrado e deverá, então, inserir uma informação referente a medida da aresta (lado do quadrado).
 
+Ao clicar na opção para calcular a área do quadrado, as informações da medida da aresta, são enviados à camada controle, os dados e a informação do formulário utilizado. Por sua vez, um arquivo, com script PHP, dentro da camada controle, contém uma estrutura de decisão que verifica qual formulário foi utilizado e então, invoca a relação matemática adequada. Essas relações matemáticas estão contidas na camada modelo.
+
+Após o cálculo, o resultado é retornado à camada controle e ela decide qual interface gráfica deve ser acionada para exibir a informação ao usuário. 
+
+A seguir é apresentado o arquivo em PHP que realiza o controle no exemplo mencionado
 
 
 # Como usar?
