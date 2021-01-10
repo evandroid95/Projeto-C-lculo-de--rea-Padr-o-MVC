@@ -18,4 +18,4 @@ Passo 2 - Devemos abrir o xampp e iniciar o apache e o Mysql:
 ![img calculadora de area mvc](https://github.com/evandroid95/Projeto-Calculo-de-area-Padrao-MVC/blob/master/Captura%20de%20Tela%20(302).png)
 
 
-Passo 3 - devemos abrir em nosso navegador, o caminho: localhost/htdocs/CalculaArea , onde o view.html será o nome do arquivo onde terá a interface para rodar os comandos da calculadora
+Passo 3 - devemos abrir em nosso navegador, o caminho: localhost/htdocs/CalculaArea , onde o view.html será o nome do arquivo onde terá a interface html para digitar os comandos da calculadora.
